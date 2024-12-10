@@ -25,7 +25,7 @@ as a function of charge/discharge cycle numbers.
 
 ## Results
 
-![Result Image](NASA Battery Analysis Fig.png)
+![Result Image](https://github.com/GhanaSyamSaiVarma/NASA-Battery-Dataset-Analysis/blob/179dbe6081736f204c6ff98a5ac6e3502d17e5cb/NASA%20Battery%20Analysis%20Fig.png)
 
 This image depicts the variation of electrolyte resistance (Re) and charge transfer resistance (Rct) with increasing charge/discharge cycles. We observe a gradual increase in both resistances, indicating battery degradation as the cycles progress.
 
