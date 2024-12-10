@@ -6,7 +6,7 @@ This repository contains Python code to analyze and visualize how battery impeda
 
 ## Dataset Description
 
-The dataset comprises measurements from Li-ion batteries subjected to different operational profiles (charge, discharge, and impedance). Impedance measurements were carried out using Electrochemical Impedance Spectroscopy (EIS) with frequency sweeps from 0.1Hz to 5kHz. 
+The dataset comprises measurements from Li-ion batteries subjected to different operational profiles (charge, discharge, and impedance). Impedance measurements were carried out using Electrochemical Impedance Spectroscopy (EIS) with frequency sweeps from 0.1Hz to 5kHz. 
 
 The study tracks aging effects due to repeated charge/discharge cycles, with experiments concluding when batteries reached the end-of-life (EOL) criteria.
 
@@ -23,10 +23,20 @@ as a function of charge/discharge cycle numbers.
 
 ---
 
+## Results
+
+![Result Image](NASA Battery Analysis Fig.png)
+
+This image depicts the variation of electrolyte resistance (Re) and charge transfer resistance (Rct) with increasing charge/discharge cycles. We observe a gradual increase in both resistances, indicating battery degradation as the cycles progress.
+
+---
+
 ## Steps to Reproduce the Analysis
 
-### 1. **Install Dependencies**
+###  **Install Dependencies**
 Make sure to install the required libraries before running the code:
 
 ```bash
 pip install pandas plotly
+
+---
